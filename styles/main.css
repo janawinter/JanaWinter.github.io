@@ -1,5 +1,17 @@
-body {
+body  
+{
 
- background:#9CBA7F;
- font-family:helvetica
+ background:#9999
+
+ margin-top: 15px;
+
+font-family: arial;
+
+ font weight: bold;
+
 }
+
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 15px;
+margin-left: 0;
