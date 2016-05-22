@@ -1,17 +1,55 @@
-body  
-{
+body {
+  background:#888;
+  font-family: arial;
 
- background:#9999
-
- margin-top: 15px;
-
-font-family: arial;
-
- font weight: bold;
-
+  margin:0;
 }
 
-margin-top: 5px;
-margin-right: 10px;
-margin-bottom: 15px;
-margin-left: 0;
+head{
+  background: 666;
+  color: white;
+  padding: 15 px;
+  font-family: Helvetica; 
+  border: 4px solid black;
+}
+
+header h1 {
+background:666;
+color: white;
+padding: 15px;
+
+margin:0;
+  display: inline-block;
+}
+ul {
+  margin: 0;
+  padding: 0 0 0 15;
+  display:inline;
+}
+
+nav ul li {
+  background: black;
+  color: white;
+  display :inline-block;
+  list-style-type:none;
+  margin:0;
+}
+
+ul li a {
+  background: 888;
+  color: red;
+  display: inline-block;
+  list-style-type: none;
+}
+.row {
+
+}
+.col {
+  background: 555;
+  padding: 20;
+  margin: 5px;
+float: left;
+}
+footer {
+  clear: both;
+}
