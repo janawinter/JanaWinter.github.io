@@ -1,0 +1,29 @@
+html {margin:1%;
+}
+header {background-color: black;
+margin-bottom:10px;
+margin-top:2px;
+font-color: white;
+}
+link {text-align:
+}
+h1 {font-color:white;
+}
+h2 {font-color: white;
+}
+div img {
+    min-width: 10%;
+    min-height: 5%;
+    border: 5% solid #73AD21;
+}
+
+body {background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
+  background-color:#888;
+  background-color:#DAF1FF;
+}
+
