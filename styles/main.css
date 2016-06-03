@@ -3,13 +3,25 @@ html {border: 2%;}
 
 
 header {
-
+margin-bottom: 20px;
   padding-top: 50px;
   padding-bottom:20px;
   height: 100px;
   background-color: black;
 }
-header button {margin-bottom:0px}
+header button {margin-bottom:0px
+}
+
+body { background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
+background-color:#888;
+background-color:#DAF1FF;
+}
+
 h1 {
   color:white;
 }
