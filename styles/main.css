@@ -1,19 +1,28 @@
-
-html {border: 2%;}
-
+html {
+  border: 2%;
+}
 
 header {
-margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-top: 50px;
   padding-bottom:20px;
   height: 100px;
   background-color: black;
+  outline-color: white;
+  border: 2px ;
+  border color: white;
+
+}
+.twelve-columns{
+  border-color: solid: white 2px;
 }
 
 a.button {
+  margin top:white;
   margin-bottom:5px;
   background-color:black;
   color:#DAF1FF;
+
 }
 
 body { background:
@@ -23,7 +32,7 @@ linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
 linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
 background-size: 100px 100px;
 background-color:#888;
-background-color:#DAF1FF;
+background-color:#ffd0d7;
 }
 
 h1 {
@@ -35,7 +44,7 @@ h6 {
   margin-right:20px;
   margin-bottom:300px;
 }
- .footer {
+.footer {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 50px;
