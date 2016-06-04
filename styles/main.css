@@ -12,8 +12,8 @@ margin-bottom: 20px;
 
 a.button {
   margin-bottom:5px;
-  background-color:#DAF1FF;
-  color:black;
+  background-color:black;
+  color:#DAF1FF;
 }
 
 body { background:
@@ -35,8 +35,10 @@ h6 {
   margin-right:20px;
   margin-bottom:300px;
 }
- footer{ background-color: black;
+ footer {
+  background-color: black;
  }
-}
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+
+}
