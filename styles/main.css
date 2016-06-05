@@ -10,6 +10,12 @@ header {
   background-color: black;
 }
 
+
+.twelve columns{
+  display: inline-flex;
+  width: 100%;
+
+}
 a.button {
   margin-bottom:5px;
   background-color:black;
@@ -58,23 +64,23 @@ h6 {
 @media (min-width: 400px) {
 .a button {
   width :100%
-
-}
 }
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
 .a button {
+   display: inline;
   width:75%;
 }
 }
-@media (min-width: 750px) {
+@media (max-width: 750px) {
 .a button {
+  display: inline;
   width:50%;
 
 }
-}
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
 .a button{
+   display: inline;
   width:25%;
 
 }
