@@ -50,6 +50,9 @@ h6 {
   margin-right:20px;
   margin-bottom:300px;
 }
+.twelve columns{
+  display: inline-flex;
+  width: 100%;
 
 .footer {
     margin-top: 30px;
@@ -61,21 +64,25 @@ h6 {
     color:white;
  }
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 .a button {
   width :100%
 }
 
 @media (max-width: 550px) {
 .a button {
-   display: inline;
-  width:75%;
+   display: inline-flex;
+  width:100%;
 }
 }
 @media (max-width: 750px) {
 .a button {
-  display: inline;
+  display: inline-flex;
   width:50%;
+
+.twelve columns {
+  display: inline-flex;
+  width: 100%;
 
 }
 @media (max-width: 1000px) {
