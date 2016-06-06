@@ -3,11 +3,11 @@ html {
 }
 
 header {
+
   margin-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom:20px;
   height: 100px;
-
   background-color: black;
 }
 .twelve columns {display: inline-block;
@@ -42,6 +42,7 @@ a.button {
 
 }
 a.button {
+  align:center;
   margin-bottom:5px;
   background-color:black;
   color:white;
@@ -82,9 +83,7 @@ h6 {
   margin-right:20px;
   margin-bottom:300px;
 }
-.twelve columns{
-  display: inline-flex;
-  width: 100%;
+
 
 .footer {
     margin-top: 30px;
@@ -100,7 +99,7 @@ h6 {
 
 @media (min-width: 400px) {
  a.button {
-  width:inherit;
+   width:inherit;
    text-align:center;
    display: inline-flex;
    margin-left: auto;
