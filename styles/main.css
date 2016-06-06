@@ -16,16 +16,18 @@ header {
   text-align: center;
   margin-bottom: 30px;
   padding-top: 50px;
-  padding-bottom:100px;
+  padding-bottom:20px;
   height: 100px;
   background-color:#333;
   color: white;
 }
+.twelve columns {display: inline-flex
+width 100%}
 }
 hr {color: white;
 }
 
-p {padding left: 0px;
+p {padding left: 30px;
 
 
 }
@@ -33,24 +35,21 @@ a {padding-left:30px;
 
 }
 a.button {
-   display: inline-flex;
+  width:auto;
+  text-align:center;
   margin-left: auto;
   margin-right:auto;
+  margin bottom:5px;
   background-color:black;
- display:inline-flex;
+  display:inline-block;
   color:white;
 }
-.twelve columns {
-  display: inline-block;
-  width: 100%;
-}
+
 div.row { display: inline-flex;
  }
 
 .box container {
-  display: inline-block;
-  margin-left: auto;
-  margin-right:auto;
+display: inherit;
 width: 400px;
 height: 400px;
 }
@@ -63,14 +62,15 @@ h1 {
 h6 {
   margin-left: auto;
   margin-right:auto;
+}
+.twelve columns {
+  display:inline-block;
+  width :100%;}
+}
 
-}
-p {padding-left: 100px;
-}
-
-}
 .footer {
     margin-top: 30px;
+    text-align:center;
     margin-bottom: 30px;
     padding-top: 50px;
     padding-bottom: 19px;
@@ -80,35 +80,43 @@ p {padding-left: 100px;
  }
 
 @media (min-width: 400px) {
- a.button { width:inherit;
+ a.button {
+  width:inherit;
+   text-align:center;
    display: inline-flex;
    margin-left: auto;
    margin right:auto;
-  width:25%;
+  width:100%;
 }
 
 @media (min-width: 550px) {
 a.button {
-   display: inline-flex;
+  width:inherit;
+   text-align:center;
+   display: inline-block;
    margin-left: auto;
    margin right:auto;
-  width:25%;
+  width:100%;
 }
 
 @media (min-width: 750px) {
 a.button {
+  width:inherit;
+   text-align:center;
   display:inline-flex;
    min-width: auto;
    margin-left: auto;
    margin right:auto;
-  width:25%;
+  width:100%;
 }
 @media (min-width: 1000px) {
 a.button {
+  width:inherit
+  text-align:center;
   display:inline-flex;
     margin-left: auto;
    margin right:auto;
-  width:25%%;
+  width:100%%;
 }
 
 
