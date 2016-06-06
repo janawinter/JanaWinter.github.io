@@ -2,35 +2,6 @@ html {
   border: 2%;
 }
 
-header {
-  margin-bottom: 30px;
-  padding-top: 50px;
-  padding-bottom:20px;
-  height: 100px;
-  background-color: black;
-}
-
-
-.twelve columns{
-  display: inline-flex;
-  width: 100%;
-
-}
-a.button {
-  margin-bottom:5px;
-  background-color:black;
-  color:white;
-
-}
-a{margin-left: 20px;
-
-}
-.box container {
-width: 400px;
-height: 400px;
-border: 2px solid: black;
-}
-
 body { background:
 linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
 linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
@@ -40,18 +11,64 @@ background-size: 100px 100px;
 background-color:#888;
 background-color:#ffd0d7;
 }
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom:20px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.twelve columns{
+  display: inline-flex;
+  width: 100%;
+
+}
+
+p {padding left: 30px;
+
+
+}
+a {padding-left:30px;
+}
+
+a.button {
+  width: auto;
+  margin-left: auto;
+  margin-right:auto;
+;
+  margin-bottom:5px;
+  background-color:black;
+ display: inline-block;
+  color:white;
+}
+
+a {margin-left: 20px;
+}
+
+.box container {
+  display: inherit;
+width: 400px;
+height: 400px;
+}
+
 
 h1 {
   color:white;
 }
 
 h6 {
-  margin-left: 300px;
-  margin-right:20px;
-  margin-bottom:300px;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+p {
+  padding-left: 100px;
 }
 .twelve columns{
-  display: inline-flex;
+  display: inline-block;
   width: 100%;
 
 .footer {
@@ -63,31 +80,41 @@ h6 {
     background-color: black;
     color:white;
  }
-/* Larger than mobile */
-@media (max-width: 400px) {
-.a button {
-  width :100%
-}
-
-@media (max-width: 550px) {
-.a button {
+...
+@media (min-width: 400px) {
+ a.button {
+  width:inherit;
    display: inline-flex;
+   margin-left: auto;
+   margin right:auto;
   width:100%;
 }
-}
-@media (max-width: 750px) {
-.a button {
-  display: inline-flex;
-  width:50%;
 
-.twelve columns {
-  display: inline-flex;
-  width: 100%;
+@media (min-width: 550px) {
+a.button {
+  width: inherit;
+   display: inline-block;
+   margin-left: auto;
+   margin right:auto;
+  width:100%;
+}
+
+@media (min-width: 750px) {
+a.button {
+width: inherit;
+min-width: auto;
+   margin-left: auto;
+   margin right:auto;
+  width:100%;
+}
+@media (min-width: 1000px) {
+a.button {
+  width:inherit;
+   display: inline-flex;
+    margin-left: auto;
+   margin right:auto;
+  width:100%;
+
 
 }
-@media (max-width: 1000px) {
-.a button{
-   display: inline;
-  width:25%;
 
-}
