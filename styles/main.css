@@ -11,6 +11,7 @@ background-size: 100px 100px;
 background-color:#888;
 background-color:#d8f0f3;
 }
+
 header {
   text-align: center;
   margin-bottom: 30px;
@@ -20,16 +21,11 @@ header {
   background-color:#333;
   color: white;
 }
-.twelve columns {
-  margin-left: auto;
-  margin-right:auto;
-  display: inline-flex;
-  width:100%;
 }
 hr {color: white;
 }
 
-p {padding left: 30px;
+p {padding left: 0px;
 
 
 }
@@ -37,14 +33,19 @@ a {padding-left:30px;
 
 }
 a.button {
+   display: inline-flex;
   margin-left: auto;
   margin-right:auto;
-  margin-bottom:5px;
   background-color:black;
- display:inline-block;
+ display:inline-flex;
   color:white;
 }
-
+.twelve columns {
+  display: inline-block;
+  width: 100%;
+}
+div.row { display: inline-flex;
+ }
 
 .box container {
   display: inline-block;
@@ -58,6 +59,7 @@ h1 {
   color:white;
 }
 
+
 h6 {
   margin-left: auto;
   margin-right:auto;
@@ -65,9 +67,6 @@ h6 {
 }
 p {padding-left: 100px;
 }
-.twelve columns{
-  display: inline-block;
-  width: 100%;
 
 }
 .footer {
@@ -85,34 +84,31 @@ p {padding-left: 100px;
    display: inline-flex;
    margin-left: auto;
    margin right:auto;
-  width:100%;
+  width:25%;
 }
 
 @media (min-width: 550px) {
 a.button {
-   display: inline-block;
+   display: inline-flex;
    margin-left: auto;
    margin right:auto;
-  width:100%;
+  width:25%;
 }
 
 @media (min-width: 750px) {
 a.button {
-min-width: auto;
+  display:inline-flex;
+   min-width: auto;
    margin-left: auto;
    margin right:auto;
-  width:75%;
-
-twelve columns {
- display: inline-flex;
-  width: 50%;
+  width:25%;
 }
 @media (min-width: 1000px) {
-a.button { width:inherit;
-   display: inline-flex;
+a.button {
+  display:inline-flex;
     margin-left: auto;
    margin right:auto;
-  width:75%;
+  width:25%%;
 }
 
 
