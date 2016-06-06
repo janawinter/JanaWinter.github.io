@@ -13,24 +13,17 @@ background-color:#888;
 background-color:#d8f0f3;
 }
 
-=======
->>>>>>> parent of 065690d... fix media queries and tidy
 header {
   margin-bottom: 30px;
   padding-top: 50px;
   padding-bottom:20px;
   height: 100px;
-<<<<<<< HEAD
-  background-color:#333;
-  color: white;
-=======
+
   background-color: black;
->>>>>>> parent of 065690d... fix media queries and tidy
 }
 .twelve columns {display: inline-block;
 width 100%}
 
-<<<<<<< HEAD
 hr {color: white;
 }
 
@@ -53,7 +46,6 @@ a.button {
 
 }
 
-=======
 
 .twelve columns{
   display: inline-flex;
@@ -84,23 +76,19 @@ background-size: 100px 100px;
 background-color:#888;
 background-color:#ffd0d7;
 }
-
->>>>>>> parent of 065690d... fix media queries and tidy
 h1 {
+
   color:white;
 }
 
 
 h6 {
-<<<<<<< HEAD
   margin-left: auto;
   margin-right:auto;
 }
 .twelve columns {
   display:inline-block;
-  width :100%;}
-}
-=======
+  width :100%;
   margin-left: 300px;
   margin-right:20px;
   margin-bottom:300px;
@@ -108,7 +96,6 @@ h6 {
 .twelve columns{
   display: inline-flex;
   width: 100%;
->>>>>>> parent of 065690d... fix media queries and tidy
 
 .footer {
     margin-top: 30px;
@@ -119,8 +106,7 @@ h6 {
     height: 25px;
     background-color: black;
     color:white;
- }
-<<<<<<< HEAD
+
 }
 
 @media (min-width: 400px) {
@@ -163,7 +149,6 @@ a.button {
    margin right:auto;
   width:100%%;
 }
-=======
 /* Larger than mobile */
 @media (max-width: 400px) {
 .a button {
@@ -184,9 +169,8 @@ a.button {
 .twelve columns {
   display: inline-flex;
   width: 100%;
-
->>>>>>> parent of 065690d... fix media queries and tidy
 }
+
 @media (max-width: 1000px) {
 .a button{
    display: inline;
