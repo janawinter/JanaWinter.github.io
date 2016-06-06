@@ -15,16 +15,16 @@ header {
   text-align: center;
   margin-bottom: 30px;
   padding-top: 50px;
-  padding-bottom:20px;
-  height: 100px;
+  padding-bottom:100px;
+  height: 70px;
   background-color: black;
   color: white;
 }
-
-.twelve columns{
+.twelve columns {
   display: inline-flex;
-  width: 100%;
-
+  width:100%;
+}
+hr {color: white;
 }
 
 p {padding left: 30px;
@@ -32,20 +32,21 @@ p {padding left: 30px;
 
 }
 a {padding-left:30px;
-}
+  margin-left: 20px;
 
+}
 a.button {
-  width: auto;
+  width:auto;
   margin-left: auto;
   margin-right:auto;
-;
+  ;
   margin-bottom:5px;
   background-color:black;
- display: inline-block;
+ display:inline-block;
   color:white;
 }
 
-a {margin-left: 20px;
+a {margin-left: 20px
 }
 
 .box container {
@@ -53,7 +54,6 @@ a {margin-left: 20px;
 width: 400px;
 height: 400px;
 }
-
 
 h1 {
   color:white;
@@ -71,6 +71,7 @@ p {
   display: inline-block;
   width: 100%;
 
+}
 .footer {
     margin-top: 30px;
     margin-bottom: 30px;
