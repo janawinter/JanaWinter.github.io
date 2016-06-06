@@ -2,6 +2,7 @@ html {
   border: 2%;
 }
 
+<<<<<<< HEAD
 body { background:
 linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
 linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
@@ -12,18 +13,24 @@ background-color:#888;
 background-color:#d8f0f3;
 }
 
+=======
+>>>>>>> parent of 065690d... fix media queries and tidy
 header {
-  text-align: center;
   margin-bottom: 30px;
   padding-top: 50px;
   padding-bottom:20px;
   height: 100px;
+<<<<<<< HEAD
   background-color:#333;
   color: white;
+=======
+  background-color: black;
+>>>>>>> parent of 065690d... fix media queries and tidy
 }
 .twelve columns {display: inline-block;
 width 100%}
 
+<<<<<<< HEAD
 hr {color: white;
 }
 
@@ -46,12 +53,46 @@ a.button {
 
 }
 
+=======
+
+.twelve columns{
+  display: inline-flex;
+  width: 100%;
+
+}
+a.button {
+  margin-bottom:5px;
+  background-color:black;
+  color:white;
+
+}
+a{margin-left: 20px;
+
+}
+.box container {
+width: 400px;
+height: 400px;
+border: 2px solid: black;
+}
+
+body { background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
+background-color:#888;
+background-color:#ffd0d7;
+}
+
+>>>>>>> parent of 065690d... fix media queries and tidy
 h1 {
   color:white;
 }
 
 
 h6 {
+<<<<<<< HEAD
   margin-left: auto;
   margin-right:auto;
 }
@@ -59,6 +100,15 @@ h6 {
   display:inline-block;
   width :100%;}
 }
+=======
+  margin-left: 300px;
+  margin-right:20px;
+  margin-bottom:300px;
+}
+.twelve columns{
+  display: inline-flex;
+  width: 100%;
+>>>>>>> parent of 065690d... fix media queries and tidy
 
 .footer {
     margin-top: 30px;
@@ -70,6 +120,7 @@ h6 {
     background-color: black;
     color:white;
  }
+<<<<<<< HEAD
 }
 
 @media (min-width: 400px) {
@@ -112,5 +163,33 @@ a.button {
    margin right:auto;
   width:100%%;
 }
+=======
+/* Larger than mobile */
+@media (max-width: 400px) {
+.a button {
+  width :100%
 }
 
+@media (max-width: 550px) {
+.a button {
+   display: inline-flex;
+  width:100%;
+}
+}
+@media (max-width: 750px) {
+.a button {
+  display: inline-flex;
+  width:50%;
+
+.twelve columns {
+  display: inline-flex;
+  width: 100%;
+
+>>>>>>> parent of 065690d... fix media queries and tidy
+}
+@media (max-width: 1000px) {
+.a button{
+   display: inline;
+  width:25%;
+
+}
