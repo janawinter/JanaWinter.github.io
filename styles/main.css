@@ -9,7 +9,7 @@ linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
 linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
 background-size: 100px 100px;
 background-color:#888;
-background-color:#ffd0d7;
+background-color:#d8f0f3;
 }
 header {
   text-align: center;
@@ -17,10 +17,12 @@ header {
   padding-top: 50px;
   padding-bottom:100px;
   height: 100px;
-  background-color: black;
+  background-color:#333;
   color: white;
 }
 .twelve columns {
+  margin-left: auto;
+  margin-right:auto;
   display: inline-flex;
   width:100%;
 }
@@ -32,25 +34,22 @@ p {padding left: 30px;
 
 }
 a {padding-left:30px;
-  margin-left: 20px;
 
 }
 a.button {
-  width:auto;
   margin-left: auto;
   margin-right:auto;
-  ;
   margin-bottom:5px;
   background-color:black;
  display:inline-block;
   color:white;
 }
 
-a {margin-left: 20px
-}
 
 .box container {
-  display: inherit;
+  display: inline-block;
+  margin-left: auto;
+  margin-right:auto;
 width: 400px;
 height: 400px;
 }
@@ -64,8 +63,7 @@ h6 {
   margin-right:auto;
 
 }
-p {
-  padding-left: 100px;
+p {padding-left: 100px;
 }
 .twelve columns{
   display: inline-block;
@@ -76,15 +74,14 @@ p {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 50px;
-    padding-bottom: 20px;
-    height: 35px;
+    padding-bottom: 19px;
+    height: 25px;
     background-color: black;
     color:white;
  }
-...
+
 @media (min-width: 400px) {
- a.button {
-  width:inherit;
+ a.button { width:inherit;
    display: inline-flex;
    margin-left: auto;
    margin right:auto;
@@ -93,7 +90,6 @@ p {
 
 @media (min-width: 550px) {
 a.button {
-  width: inherit;
    display: inline-block;
    margin-left: auto;
    margin right:auto;
@@ -102,20 +98,21 @@ a.button {
 
 @media (min-width: 750px) {
 a.button {
-width: inherit;
 min-width: auto;
    margin-left: auto;
    margin right:auto;
-  width:100%;
+  width:75%;
+
+twelve columns {
+ display: inline-flex;
+  width: 50%;
 }
 @media (min-width: 1000px) {
-a.button {
-  width:inherit;
+a.button { width:inherit;
    display: inline-flex;
     margin-left: auto;
    margin right:auto;
-  width:100%;
-
-
+  width:75%;
 }
+
 
