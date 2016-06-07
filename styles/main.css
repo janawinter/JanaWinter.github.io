@@ -3,38 +3,13 @@ html {
 }
 
 header {
-
   margin-bottom: 30px;
   padding-top: 20px;
-  padding-bottom:20px;
+  padding-bottom:75px;
   height: 100px;
   background-color: black;
-}
-.twelve columns {display: inline-block;
-width 100%}
-
-hr {color: white;
-}
-
-p {padding left: 30px;
-
-
-}
-a {padding-left:30px;
-
-}
-a.button {
-  width:auto;
-  text-align:center;
-  margin-left: auto;
-  margin-right:auto;
-  margin bottom:5px;
-  background-color:black;
-  display:inline-block;
   color:white;
-
 }
-
 
 .twelve columns{
   display: inline-flex;
@@ -42,11 +17,9 @@ a.button {
 
 }
 a.button {
-  align:center;
   margin-bottom:5px;
   background-color:black;
   color:white;
-
 }
 a{margin-left: 20px;
 
@@ -65,78 +38,22 @@ linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
 background-size: 100px 100px;
 background-color:#888;
 background-color:#ffd0d7;
-}
-h1 {
 
-  color:white;
-}
-
-
-h6 {
-  margin-left: auto;
-  margin-right:auto;
-}
-.twelve columns {
-  display:inline-block;
-  width :100%;
-  margin-left: 300px;
-  margin-right:20px;
-  margin-bottom:300px;
 }
 
 
 .footer {
     margin-top: 30px;
     text-align:center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding-top: 50px;
-    padding-bottom: 19px;
+    padding-bottom: 0px;
     height: 25px;
     background-color: black;
     color:white;
 
 }
 
-@media (min-width: 400px) {
- a.button {
-   width:inherit;
-   text-align:center;
-   display: inline-flex;
-   margin-left: auto;
-   margin right:auto;
-  width:100%;
-}
-}
-@media (min-width: 550px) {
-a.button {
-  width:inherit;
-   text-align:center;
-   display: inline-block;
-   margin-left: auto;
-   margin right:auto;
-  width:100%;
-}
-}
-@media (min-width: 750px) {
-a.button {
-  width:inherit;
-   text-align:center;
-  display:inline-flex;
-   min-width: auto;
-   margin-left: auto;
-   margin right:auto;
-  width:100%;
-}
-}
-@media (min-width: 1000px) {
-a.button {
-  width:inherit
-  text-align:center;
-  display:inline-flex;
-    margin-left: auto;
-   margin right:auto;
-  width:100%%;
-}
 /* Larger than mobile */
 @media (max-width: 400px) {
 .a button {
@@ -153,12 +70,12 @@ a.button {
 .a button {
   display: inline-flex;
   width:50%;
+}
 
 .twelve columns {
   display: inline-flex;
   width: 100%;
 }
-
 @media (max-width: 1000px) {
 .a button{
    display: inline;
